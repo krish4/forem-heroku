@@ -11,6 +11,14 @@ GIT
       simple_form
 
 GIT
+  remote: git://github.com/intridea/omniauth-oauth2.git
+  revision: 74a15ad545d2f070f59ad9744774a8835103384a
+  specs:
+    omniauth-oauth2 (1.1.0)
+      oauth2 (~> 0.8.0)
+      omniauth (~> 1.0)
+
+GIT
   remote: git://github.com/radar/forem-theme-twist.git
   revision: f08ab243ee695bd5485d589c1177d99d00602150
   specs:
@@ -119,9 +127,7 @@ GEM
     omniauth (1.1.1)
       hashie (~> 1.2)
       rack
-    omniauth-oauth2 (1.1.0)
-      oauth2 (~> 0.8.0)
-      omniauth (~> 1.0)
+    pg (0.14.0)
     polyglot (0.3.3)
     pygments.rb (0.2.4)
       rubypython (~> 0.5.3)
@@ -166,7 +172,6 @@ GEM
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.6)
     thor (0.16.0)
     tilt (1.3.3)
     treetop (1.4.10)
@@ -187,8 +192,9 @@ DEPENDENCIES
   forem-theme-twist!
   jquery-rails
   kaminari
+  omniauth-oauth2!
   omniauth_single_signon!
+  pg
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)
-  sqlite3
   uglifier (>= 1.0.3)
