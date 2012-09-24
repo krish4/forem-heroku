@@ -18,6 +18,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'comfortable_mexican_sofa'
 gem 'jquery-rails'
 gem 'omniauth-oauth2',                    :github => 'intridea/omniauth-oauth2'
 gem 'omniauth_single_signon',             :github => 'InvestoPresto/omniauth-single-signon'
